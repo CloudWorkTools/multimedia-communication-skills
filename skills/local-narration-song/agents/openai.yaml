@@ -1,0 +1,4 @@
+interface:
+  display_name: "本機 MiniMax 歌唱與影片同步"
+  short_description: "用本機 MiniMax Music 3 唱指定歌詞，核對咬字、漏唱、字幕同步與自然度"
+  default_prompt: "使用 $local-narration-song，以 MiniMax Music 3 原生歌手唱出指定歌詞，優先清楚咬字，保留伴奏與設定，依最終音訊對齊字幕與畫面，核對實際 MP4 音軌及全片同步。"

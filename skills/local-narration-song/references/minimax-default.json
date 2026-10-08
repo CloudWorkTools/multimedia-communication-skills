@@ -1,0 +1,19 @@
+{
+  "caption": "Global Metadata: Mandarin acoustic folk pop, 90 BPM, C major, 4/4, warm and clear, an educational song. Each verse and chorus is performed only once. Finish after the last supplied lyric with a resolved cadence. Brief intro and brief resolved outro. C-Am-F-G and C-G-Am-F harmony, Dm7-G7-C final cadence. Vocal Details: one natural warm male lead singer, exceptionally clear standard Mandarin pronunciation with distinct syllable initial consonants, unhurried syllables, smooth connected vowels, comfortable mid-range, every lyric line sung exactly once in order. Arrangement: acoustic guitar rhythm, soft piano chords, warm bass and gentle brushed drums, sparse supportive accompaniment, restrained fills.",
+  "duration": 60,
+  "steps": 30,
+  "seed": 42,
+  "lm_seed": 42,
+  "lm_batch_size": 1,
+  "synth_batch_size": 1,
+  "lm_cfg": 1.5,
+  "lm_top_k": 50,
+  "dit_cfg": 1.7,
+  "peak_clip": 0,
+  "output_format": "wav32",
+  "lm_model": "MiniMax-Music3-language_model-Q8_0.gguf",
+  "depth_model": "MiniMax-Music3-rvq_depth_decoder-Q8_0.gguf",
+  "cond_model": "MiniMax-Music3-condition_encoder-F32.gguf",
+  "dit_model": "MiniMax-Music3-transformer-Q8_0.gguf",
+  "vae_model": "MiniMax-Music3-vocoder-F32.gguf"
+}
